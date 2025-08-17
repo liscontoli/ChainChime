@@ -1,0 +1,63 @@
+.popup {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color:#5374ce54;
+  z-index: 9999;
+  display: flex;
+  justify-content: end;
+}
+
+
+.popup p {
+    color: white;
+}
+
+
+.task-container2 {
+  border: 2px solid #2e4686;
+  border-radius: 10px;
+  margin: 5px 5px  0 5px;
+  height: 22em;
+  overflow-y: scroll;
+  background-color: rgb(226, 234, 255);
+}
+.text{
+  color: #95ADEE;
+  margin-left: 5px;
+}
+.text-field2 {
+  overflow: visible;
+  border: 2px solid #2e4686;
+  border-radius: 10px;
+  background-color: transparent;
+  font-size: 16px;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+}
+.checked {
+  text-decoration:line-through ;
+}
+.SessionImg
+{
+  
+  width: auto !important; /*override the width below*/
+  width: 100%;
+  max-width: 678px;
+  
+  clear: both;
+  
+}
+
+
+.SessionRight
+{
+  background-image: url('../assets/win/Group\ 770.png');
+  background-repeat: no-repeat;
+ justify-content: end;
+  background-size:contain;
+}

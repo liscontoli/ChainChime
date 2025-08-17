@@ -1,0 +1,31 @@
+h2
+{
+    /* color: white; */
+}
+
+.ContentContainer
+{
+    max-height: 700px;
+    max-width: 700px;
+    overflow-y: auto;
+    padding: 20px;
+
+}
+
+.ProfileContainer
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.DevProfile
+{
+    flex: 1;
+    background-color: #101010;
+    /*border: solid #A1CCA5;*/
+    
+}
+
+
+
+

@@ -1,0 +1,97 @@
+
+.createTasksContainer button{
+    background-color: transparent;
+    border: none;
+
+}
+.createTasksContainer{
+    /* max-height:440px; */
+    
+}
+
+.task-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+    border: 2px solid #2e4686;
+    border-radius: 10px;
+    padding:0 5px;
+    height: 13.5em;
+    overflow-y: scroll;
+    background-color: rgb(226, 234, 255);
+}
+.text-field {
+    overflow: visible;
+    border: 2px solid #2e4686;
+    border-radius: 10px;
+    background-color: transparent;
+    font-size: 16px;
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    /* justify-content:space-between; */
+}
+.texts {
+    border: none ;
+    border-radius: 0px ;
+    border-color: transparent;
+    height: 100% ;
+    margin: 0 ;
+    background-color: transparent ;
+    color: #2e4686;
+    width: 100%;
+
+    font-weight: 900;  
+}
+.texts:focus {
+    outline: none;
+}
+textarea::placeholder {
+    color: #95ADEE;
+    font-weight: 900;  
+  }
+
+
+ul button {
+    background-color: transparent;
+    border: none;
+   
+}
+.iconButton{
+    background-repeat: no-repeat;
+    height: 23px;
+    width: 20px;
+    display: block;
+    cursor: pointer;
+    background-size: 20px;
+}
+
+.addContainer button {
+    margin-left: 10px;
+}
+
+.checkboxContainer {
+    margin-right: 8px;
+}
+
+.checked {
+  text-decoration:line-through ;
+}
+
+
+label{
+    overflow-wrap: break-word;
+    max-width: 250px;
+}
+
+
+input[type="checkbox"] {
+    accent-color:  rgb(226, 234, 255);
+    width: 20px;
+    height: 20px;
+    outline: #95ADEE;
+   
+}

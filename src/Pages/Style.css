@@ -1,0 +1,719 @@
+@media screen and (min-width:0px) and (max-width:479px)
+{
+  
+  .Background {
+    background: url("../assets/background/Frame557-480.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  height: 100vh;
+  }
+  .Background2 {
+    background: url("../assets/background/Frame\ 558.png");
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position: center;
+  }
+  .Background3 {
+  background: url("../assets/background/Frame\ 558-480.png");
+  /* background-repeat:no-repeat; */
+  background-size:cover;
+  background-position: center;
+  justify-content: center;
+  }
+  .buttonsCC{
+    background-size: 70%;
+  }
+  .footerButton{
+    width:250px; 
+    height:8vh;
+    background-size: 95%;
+    margin-bottom: 5px;
+  }
+  .sessionState{
+    padding: 0 40px 0;
+    margin: 0 0 20px 0;
+    background-size: 95%;
+  }
+  .task-container{
+    margin-inline: 15px;
+  }
+  .long-break{
+  margin:45px  0;
+  }
+  .wor-timer {
+    /*margin-left: 12vw;*/
+    padding:0 0 0 3vw;
+    width: 100% !important; 
+    display: flex !important;
+    justify-content: space-between !important;
+  }
+  .wor-timer>h1>p{
+    font-size: 11vw !important;
+    margin-left: 3vw;
+  }
+  .wor-timer>button{
+    height: 14vw !important;
+    margin: 0 1.5vw 0 0 !important;
+    width: 7vw !important;
+    height: 18vw !important;
+  }
+  .SessionRight{
+    background-size: 100% !important;
+    height: 50vw;
+  }
+  .MainCenterContainer2{
+    padding: 0 !important;
+    justify-content: center !important;
+    width: 100% !important;
+    display: flex !important;
+  }
+  .SessionContainer{
+    display: flex;
+    flex-direction: column-reverse;
+    width: 80%;
+  }
+  .SessionLeft{
+    width: 100%;
+  }
+  .popup-inner {
+    width: 80%;
+    /* align-self: center; */
+    background-image: url('../assets/win/Group\ 766.png');
+    margin:40vw auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+    }
+    .popup-inner>h1>p{
+      font-size: 11vw !important;
+    margin-left: 5vw;
+    }
+    .popup-inner>div>button{
+      height:8vw !important ;
+    }
+ 
+} 
+@media screen and (min-width:480px) and (max-width:767px) 
+{
+  .Background {
+    width: 100vw;
+    height: 100vh;
+    background: url("../assets/background/Frame557-480.png");
+  background-repeat:repeat-x;
+  background-size:cover;
+  }
+  .Background2{
+   
+    background: url("../assets/background/Frame\ 558.png");
+  background-repeat:repeat-x;
+  background-size:cover;
+  }
+  .Background3{
+   
+    background: url("../assets/background/Frame\ 558-480.png");
+  /* background-repeat:repeat-x; */
+  background-size:cover;
+  background-position: center;
+  justify-content: center;
+  }
+  .buttonsCC{
+    background-size: 70%;
+  }
+  .footerButton{
+    width:250px; 
+    height:8vh;
+    margin-bottom:5px;    
+    background-size:95%;
+  }
+  .sessionState{
+    background-size: 90%;
+    padding: 0 45px 0;
+    margin: 0 0 20px 0;
+  }
+  .task-container{
+    margin-inline: 15px;
+  }
+  .long-break{
+    margin:45px  0;
+    }
+    .wor-timer {
+      /*margin-left: 12vw;*/
+      padding:0 0 0 3vw;
+      width: 100% !important; 
+      display: flex !important;
+    justify-content: space-between !important;
+    }
+    .wor-timer>h1>p{
+      font-size: 11vw !important;
+      margin-left: 3vw;
+    }
+    .wor-timer>button{
+      height: 14vw !important;
+      margin: 0 .5vw 0 0 !important;
+      width: 7vw !important;
+      height: 16vw !important;
+    }
+    .SessionRight{
+      background-size: 100% !important;
+      height: 50vw;
+    }
+    .MainCenterContainer2{
+      padding: 0 !important;
+    justify-content: center;
+      width: 90% !important;
+      display: flex !important;
+    }
+    .SessionContainer{
+      display: flex;
+      flex-direction: column-reverse;
+      width: 75%;
+    }
+    .SessionLeft 
+    {
+      width: 100%;
+    }
+    .popup-inner {
+      width: 70%;
+      /* align-self: center; */
+      background-image: url('../assets/win/Group\ 766.png');
+      margin:25% auto;
+      background-repeat: no-repeat;
+      background-size: contain;
+      }
+      .popup-inner>h1>p{
+        font-size: 11vw !important;
+      margin-left: 5vw;
+      }
+      .popup-inner>div>button{
+        height:5vw !important ;
+      }
+}
+
+
+@media only screen and (min-width:768px) and (max-width:1260px) {
+  .Background {
+  width: 100vw;
+  height: 100vh;
+  background: url("../assets/Frame557.png");
+  background-repeat:repeat-x;
+  background-size:cover;
+  }
+  .Background2 {
+    width: 100vw;
+    height: 100vh;
+    background: url("../assets/background/Frame\ 558.png");
+  background-repeat:repeat-x;
+  background-size:cover;
+  }
+  .Background3 {
+    width: 100vw;
+    height: 100vh;
+    background: url("../assets/background/Frame\ 559.png");
+    background-position:left;
+  background-size:cover;
+  }
+  
+  .MainCenterContainer2{
+  margin-bottom: 8vh;
+    align-self:flex-end;
+    display: flex;
+    flex-direction: column;
+  }
+  .buttonsCC{
+    background-size: 70%;
+  }
+  .footerButton{
+    width:250px; 
+    height:8vh;
+    margin-bottom:5px;
+    background-size:95%;
+  }
+  .sessionState{
+    background-size: 90%;
+    padding: 0 45px 0;
+    margin: 0 0 20px 0;
+  }
+  .wor-timer {
+    /*margin-left: 12vw;*/
+    padding:0 0 0 3vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .task-container{
+    margin-inline: 15px;
+  }
+  .long-break{
+    margin:50px  0;
+    }
+    .SessionContainer
+    {display: flex;
+      width: 95%;
+      height: 100%;
+      justify-content: space-between;
+    }  
+    .sessionDiv{
+      padding-top: 9em;
+    }
+    .SessionLeft 
+    {
+      width: 25.5em;
+    }
+    .popup-inner {
+      width: 30%;
+      /* align-self: center; */
+      background-image: url('../assets/win/Group\ 766.png');
+      margin:20.5% 5% 0 0;
+      background-repeat: no-repeat;
+      background-size: contain;
+      }
+}
+@media only screen and (min-width:1261px) and (max-width:3000px) {
+  .Background {
+    width: 100vw;
+    height: 100vh;
+    background: url("../assets/Frame557.png");
+  background-repeat:repeat-x;
+  background-size:contain;
+  
+  }
+  .Background2 {
+    width: 100vw;
+    height: 100vh;
+    background: url("../assets/background//Frame\ 558.png");
+  background-repeat:repeat-x;
+  background-size:contain;
+  }
+  .Background3 {
+    width: 100vw;
+    height: 100vh;
+    background: url("../assets/background//Frame\ 559.png");
+    background-position:left;
+  background-size:cover;
+  }
+  .SessionContainer
+  {display: flex;
+    width: 95%;
+    height: 100%;
+    justify-content: space-between;
+  }
+  .wor-timer {
+    /*margin-left: 12vw;*/
+    padding:0 0 0 3vw;
+    display: flex;
+    justify-content: space-between;
+  }
+  .MainCenterContainer2{
+  margin-bottom: 8vh;
+    align-self:flex-end;
+    display: flex;
+    flex-direction: column;
+  }
+  .sessionState{
+
+  background-size: 95%;
+  padding: 0 40px 0;
+  margin: 0 0 20px 0;
+}
+.task-container{
+  margin: 5px 5px  0 5px;
+}
+.buttonsCC{
+  background-size: 80%;
+}
+  .footerButton{
+    width:300px; 
+    height:8.5vh;
+    margin-bottom:5px;
+    background-size:95%;
+  }
+  .long-break{
+    margin:70px  0;
+  }
+  .sessionDiv{
+    padding-top: 9em;
+  }
+  .SessionLeft 
+{
+  width: 25.5em;
+}
+.popup-inner {
+  width: 30%;
+  /* align-self: center; */
+  background-image: url('../assets/win/Group\ 766.png');
+  margin:20.5% 5% 0 0;
+  background-repeat: no-repeat;
+  background-size: contain;
+  }
+}
+
+.Background {
+background-position:center;
+  justify-content: center;
+  display: flex;
+  align-items: end;
+}
+.Background2 {
+background-position:center;
+  justify-content: center;
+  display: flex;
+  align-items: end;
+  width: 100vw;
+  height: 100vh;
+}
+.Background3 {
+background-repeat:no-repeat;
+  /* justify-content: center; */
+  display: flex;
+  /* align-items: end; */
+  width: 100vw;
+  height: 100vh;
+}
+
+.MainCenterContainer{
+  margin-bottom: 8vh;
+  align-self:flex-end;
+  display: flex;
+  flex-direction: column;
+}
+.footerButton{
+  align-items:center; 
+  background-position:center;
+  display:flex;
+  background-repeat:no-repeat 
+  /* background-size:100%; */
+}
+
+ .sessionState{
+  display: flex;
+  justify-content: space-between;
+  height: 7vh;
+  background-position: center;
+  align-items: center;
+  background-image: url('../assets/buttonsAndInput/Group\ 757.png');
+  background-repeat: no-repeat;
+} 
+.buttonsCC{
+  height: 11vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 5px 0;
+  /* background-size: 80%; */
+}
+
+/* TEXT BUTTONS */
+.textButton{
+  color: #2e4686;
+  background: transparent;
+  border: none;
+  margin: auto ;
+  font-size: 1.2em;
+  font-weight: bold;
+  position: relative;
+  transition: 0.3s;
+}
+
+/* 
+.MainCenterContainer:before {
+  position:absolute;
+  top:-10px;
+  left:15%;
+  content:"";
+  display:block;
+  height:20px;
+  width:70%;
+  background:#101010;
+  z-index: 1;
+}
+.MainCenterContainer:after {
+  position:absolute;
+  bottom:-10px;
+  left:15%;
+  content:"";
+  display:block;
+  height:20px;
+  width:70%;
+  background:#101010;
+  z-index: 1;
+} */
+
+
+
+.titleDE
+{
+  font-family: 'Arial, Helvetica, sans-serif';
+  color: white;
+  font-size: 30pt;
+}
+.titleTHREADER
+{
+  font-family: 'Arial, Helvetica, sans-serif';
+  color: #A1CCA5;
+  font-size: 30pt;
+}
+
+
+
+body{
+  background-color: #101010;
+}
+
+
+
+/*-------------COMPONENTS-------------------*/
+
+/*scroll bar*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: transparent; 
+  border: 2px solid #2e4686;
+  width: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #95ADEE;
+  border-radius: 100px; 
+  
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #95ADEE; 
+}
+
+/*FROMS*/
+
+.form{
+background-color: transparent;
+border-radius: 0px;
+border: none;
+
+
+}
+
+.form-body{
+  text-align: center;
+  color: white;
+  padding: 0px 0px;
+  border: none;
+}
+
+input{
+border: 2px  solid #2e4686;
+color: #2e4686;
+border-radius: 5px;
+background-color:transparent;
+/* color: white; */
+padding: 7px 5px;
+font-size: medium;
+width: 280px;
+margin-top: 10px;
+}
+.email-input {
+  background-image: url('../assets/ICONS/Vector-3.png');
+  background-position: left ;
+  background-repeat: no-repeat;
+  background-size: 20px 15px; 
+  background-position-x: 5px;
+  padding-left: 30px; 
+  /* font-weight: bold; */
+}
+.password-input {
+  background-image: url('../assets/ICONS/Group\ 558.png');
+  background-position: left ;
+  background-repeat: no-repeat;
+  background-size: 25px 20px; 
+  background-position-x: 2px;
+  padding-left: 30px; 
+  margin: 15px 0;
+  /* font-weight: bold; */
+}
+.usename-input {
+  background-image: url('../assets/ICONS/Group\ 557.png');
+  background-position: left ;
+  background-repeat: no-repeat;
+  background-size: 25px ; 
+  background-position-x: 2px;
+  padding-left: 30px; 
+  /* margin: 15px 0; */
+  /* font-weight: bold; */
+}
+input:focus {
+  /* color: #2e4686; */
+border-color: #2e4686;
+/* font-weight: bold; */
+ 
+}
+
+input::-webkit-input-placeholder{
+  color: #2e4686;
+}
+input:-moz-placeholder {
+  color: #2e4686;
+}
+
+/*
+.checkmark{
+  /* ...existing styles 
+  display: grid;
+  place-content: center;
+  background-color: red;
+}
+
+.checkmark::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+}
+
+.checkmark:checked::before {
+  transform: scale(1);
+}
+
+*/
+
+
+
+/* .textButton::before{
+  content: '';
+  border-bottom: 1px solid black;
+  padding: 0 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  width: 0;
+  transition: 0.3s;
+} */
+.textButton:hover::before
+{
+  width: 100%;
+  padding: 0;
+
+}
+
+.buttonContainer
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.buttonContainer-child
+{
+  flex: 1;
+}
+
+/* ICON BUTTONS */
+
+.iconButton{
+  background: transparent;
+  border: none;
+
+}
+.fa-Icon{
+  color: white;
+}
+.fa-Icon:hover {
+  color: #A1CCA5;
+}
+.iconContainer
+{
+  display: flex;
+  justify-content: space-between;
+  padding: 10%;
+}
+.messageContainer
+{
+  padding: 5%;
+}
+
+.white
+{
+font-family: 'Arial, Helvetica, sans-serif';
+color: white;
+font-size: 15pt;
+}
+.green
+{
+font-family: 'Arial, Helvetica, sans-serif';
+color: #A1CCA5;
+font-size: 15pt;
+}
+/*Session builders*/
+
+.createClassContainer{
+  align-items: flex-start;
+}
+
+.taskSpan
+{
+  vertical-align:top;
+}
+
+.taskInput
+{
+  border: none;
+  background-color: #101010;
+  color: white;
+  outline: none;
+  font-size: medium;
+  font-family: 'Arial, Helvetica, sans-serif';
+}
+
+.taskInput:focus
+{
+  border: none;
+  background-color: #101010;
+  color: white;
+  outline: none;
+  font-size: medium;
+  font-family: 'Arial, Helvetica, sans-serif';
+}
+
+.outer-class {
+display: block;
+margin-bottom: 10px;
+}
+
+.inner-class {
+display: inline-block;
+margin-right: 10px;
+}
+
+.go-btn {
+position: absolute;
+bottom: 50px;
+left: 50%;
+transform: translateX(-50%);
+border: none;
+background-color: transparent;
+color: white;
+z-index: 10;
+}
+
+label{
+  overflow-wrap: break-word;
+}
+
+.statsLeft
+{
+  padding: 5px;
+  font-family: 'Arial, Helvetica, sans-serif';
+  
+}
+
+.statsRight
+{
+  font-family: 'Arial, Helvetica, sans-serif';
+
+}
+
