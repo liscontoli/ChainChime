@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Screenshots/ChainChime_Logo.png" alt="ChainChime Logo" width="300">
+  <img src="Screenshots/ChainChime_Logo.png" alt="ChainChime Logo" width="400">
 </p>
 
 # ChainChime
@@ -41,11 +41,11 @@ https://chainchime.web.app
 - **Build/Tooling:** Vite or Create React App, ESLint, Prettier  
 - **Deployment:** Firebase Hosting  
 
-## 🛠 Requirements
+## Requirements
 - Node.js LTS and npm  
 - A Firebase project with Authentication and Firestore enabled  
 
-## 💻 Installation
+## Installation
 ```bash
 # Clone
 git clone https://github.com/liscontoli/ChainChime.git
